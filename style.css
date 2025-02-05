@@ -1,0 +1,146 @@
+/* Import IBM Plex Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+/* Apply IBM Plex Sans to the Entire Page */
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #FAF3E0; /* Warm Beige */
+    color: #4A3F35; /* Deep Brown */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Italic Text */
+.italic {
+    font-style: italic;
+}
+
+/* Container Styling */
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 2px solid #D9B382; /* Gold Accent */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 4px solid #D98841; /* Warm Copper */
+}
+/* Profile Picture Hover Animation */
+.profile-pic {
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Title (h1) Styling */
+h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #704214; /* Rich Coffee */
+}
+
+/* Subtitle (h2) Styling */
+h2 {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #A67B5B; /* Muted Gold */
+}
+
+
+/* Paragraph (p) Styling */
+p {
+    font-size: 18px;
+    color: #4A3F35;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 8%;
+    margin: 0%;
+}
+
+/* Two-Row Layout for Experience & Hobbies */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styling for Experience & Hobbies */
+.experience, .hobbies {
+    background: #FFF8E1; /* Light Beige */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-left: 5px solid #D98841; /* Copper Accent */
+    margin-bottom: 20px;
+}
+
+/* Experience & Hobbies List Styling */
+.experience ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience li, .hobbies li {
+    margin: 10px 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #5E3C1A; /* Deep Brown */
+}
+
+/* Icons Styling */
+.experience li::before {
+    content: "📌";
+    margin-right: 10px;
+    color: #A67B5B; /* Gold */
+}
+
+/* Links */
+a {
+    color: #704214; /* Rich Coffee */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D98841; /* Copper Highlight */
+}
+
+/* Connect Section */
+.connect {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Social Media Icons */
+.connect .icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.connect .icon:hover {
+    transform: scale(1.1);
+}
